@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'DINProLight';
+	src: url('police/DINPro/DINProLight.eot');
+	src: local('police/DINPro/DINProLight'), 
+	url('police/DINPro/.woff') format('woff'), 
+	url('police/DINPro/DINProLight.ttf') format('truetype');
+}
+
+body
+{
+    background-image: url("wallpaper/fond.jpg");
+	background-attachment: fixed;
+	color: white;
+}
+
+a {
+color: white;
+}
+
+p, h1, h2, h3, li, figcaption
+{
+	font-family: 'DINProLight';
+	
+}
+
+h1
+{
+	text-align: center;
+	font-size: xx-large;
+	
+}
+
